@@ -1,0 +1,13 @@
+.cardRow {
+  grid-row: 3 / 6;
+  grid-column: 2 / 5;
+}
+
+.cardTest {
+  object-fit: cover;
+  min-height: 100%;
+  height: 100fr;
+  width: 100%;
+  font-family: "Cinzel", serif;
+  opacity: 0.6;
+}

@@ -1,0 +1,26 @@
+.slide2 {
+  display: grid;
+  background-image: linear-gradient(
+      to right bottom,
+      #ffffff,
+      transparent,
+      transparent
+    ),
+    url("https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  grid-template-columns: 20fr 20fr 20fr 20fr 20fr;
+  grid-template-rows: 20fr 10fr 20fr 20fr 20fr 20fr;
+  width: 100vw;
+}
+.slide2Hdr {
+  color: white;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  object-fit: cover;
+  height: 100px;
+  min-height: 100%;
+  font-family: "Cinzel", serif;
+}

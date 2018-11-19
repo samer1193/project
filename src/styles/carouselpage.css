@@ -1,0 +1,12 @@
+.view1 {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/77.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.view2 {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/47.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

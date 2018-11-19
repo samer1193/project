@@ -1,0 +1,46 @@
+.slide3 {
+  display: grid;
+  background-image: linear-gradient(
+      to right bottom,
+      #ffffff,
+      transparent,
+      transparent
+    ),
+    url("https://images.pexels.com/photos/208603/pexels-photo-208603.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  grid-template-columns: 20fr 20fr 20fr 20fr 20fr;
+  grid-template-rows: 20fr 10fr 20fr 20fr 20fr 20fr;
+  /* width: 100vw; */
+}
+.profile {
+  grid-row: 3 / 6;
+  grid-column: 2 / 5;
+  background-color: rgba(20, 0, 5, 0.6);
+  display: grid;
+  grid-template-columns: 5fr 20fr 10fr 20fr 20fr 20fr 20fr 10fr;
+  grid-template-rows: 10fr 10fr 20fr 10fr 20fr 20fr;
+}
+#profileTxt {
+  grid-row: 3 / 7;
+  grid-column: 4 / 8;
+  color: white;
+}
+.slide3Hdr {
+  color: white;
+  grid-column: 5 / 7;
+  grid-row: 2 / 3;
+  font-family: "Cinzel", serif;
+  object-fit: contain;
+}
+.profileImg {
+  grid-row: 3 / 6;
+  grid-column: 2 / 4;
+  object-fit: contain;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  opacity: 1;
+}

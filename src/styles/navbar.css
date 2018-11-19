@@ -1,0 +1,33 @@
+.navbar {
+  grid-row: 1 / 2;
+  /* background-color: red; */
+}
+
+.navbar navbar-expand-lg navbar-dark transparent fixed-top scrolling-navbar {
+  padding: 0;
+}
+/* // FullPageIntroWithFixedTransparentNavbar.css */
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: #4285f4;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #4285f4;
+  }
+}
+
+.links {
+  color: #fff;
+  font-family: "Cinzel", serif;
+}
+
+.links:active {
+  color: #89010a;
+}
+
+.brand {
+  content: url("../images/logo-small.png");
+}
